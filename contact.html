@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOT AQUATiCS</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Loading Screen -->
+<div id="loader">
+  <img src="fish-loader.png" alt="Loading..." />
+  <p>Loading DOT AQUATiCS...</p>
+</div>
+
+
+    <!-- Top Bar -->
+    <div class="topbar">
+        <a href="index.html" class="logo">DOT AQUATiCS</a>
+        <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+
+        <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="shop.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div id="userProfile" class="user-profile"></div>
+  </div>
+</div>
+
+<main class="info-page">
+
+<section class="info-section">
+  <h1>Contact Us</h1>
+  <p>Have questions? Send us a message.</p>
+
+  <p>📍 Philippines</p>
+  <p>📧 dotaquatics@email.com</p>
+</section>
+
+<section class="info-section">
+  <h2>Send a Message</h2>
+ <form
+  id="contactForm"
+  class="contact-form"
+  action="https://formspree.io/f/xeelokad"
+  method="POST"
+>
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+</section>
+
+<section class="info-section">
+  <h2>Connect With Us</h2>
+  <div class="social-links">
+    <a href="https://www.facebook.com/dadut.misska"> 📘 Facebook</a>
+    <a href="https://www.facebook.com/dadut.misska"> 💬 Messenger</a>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>© 2026 DOT AQUATiCS. All rights reserved.</p>
+
+  <div>
+    <a href="about.html">About</a> |
+    <a href="services.html">Services</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <a href="https://www.facebook.com/dadut.misska" target="_blank"> Facebook</a>
+    <a href="https://m.me/dadut.misska" target="_blank">  Messenger</a>
+  </div>
+</footer>
+
+
+<div id="uiPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="popupTitle">Notice</h3>
+    <p id="popupMessage">Message here</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<!-- CONFIRM POPUP -->
+<div id="confirmPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="confirmTitle">Confirm</h3>
+    <p id="confirmMessage">Are you sure?</p>
+
+    <div style="display:flex; gap:12px; justify-content:center;">
+      <button id="confirmYesBtn" style="background:#22c55e;">Yes</button>
+      <button onclick="closeConfirm()" style="background:#ef4444;">No</button>
+    </div>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>

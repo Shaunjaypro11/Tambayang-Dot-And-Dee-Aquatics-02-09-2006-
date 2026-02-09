@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOT AQUATiCS</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Loading Screen -->
+<div id="loader">
+  <img src="fish-loader.png" alt="Loading..." />
+  <p>Loading DOT AQUATiCS...</p>
+</div>
+
+
+    <div class="topbar">
+  <a href="index.html" class="logo">DOT AQUATiCS</a>
+
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+  <!-- RIGHT SIDE -->
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="shop.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div id="userProfile" class="user-profile"></div>
+  </div>
+</div>
+
+<main class="info-page">
+
+<section class="info-section">
+  <h1>Our Services</h1>
+  <p>We provide more than just fish — we help you succeed in fish keeping.</p>
+</section>
+
+<section class="info-section">
+  <ul class="info-list">
+    <li>🐠 Live Fish Sales</li>
+    <li>🧪 Aquarium Setup Guidance</li>
+    <li>📘 Fish Care Consultation</li>
+    <li>⚙ Aquarium Accessories</li>
+  </ul>
+</section>
+
+<section class="info-section">
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <strong>Do you ship nationwide?</strong>
+    <span class="shipping-badge badge-limited">Limited Areas</span>
+    <div class="faq-answer">
+      Shipping is available in selected locations depending on fish type.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <strong>Are the fish healthy?</strong>
+    <span class="shipping-badge badge-available">Guaranteed</span>
+    <div class="faq-answer">
+      Yes. All fish are conditioned and checked before selling.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <strong>Can beginners buy from you?</strong>
+    <span class="shipping-badge badge-available">Beginner Friendly</span>
+    <div class="faq-answer">
+      Absolutely. We guide beginners on care and setup.
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<div id="uiPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="popupTitle">Notice</h3>
+    <p id="popupMessage">Message here</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<!-- CONFIRM POPUP -->
+<div id="confirmPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="confirmTitle">Confirm</h3>
+    <p id="confirmMessage">Are you sure?</p>
+
+    <div style="display:flex; gap:12px; justify-content:center;">
+      <button id="confirmYesBtn" style="background:#22c55e;">Yes</button>
+      <button onclick="closeConfirm()" style="background:#ef4444;">No</button>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>© 2026 DOT AQUATiCS. All rights reserved.</p>
+
+  <div>
+    <a href="about.html">About</a> |
+    <a href="services.html">Services</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <a href="#">Facebook</a>
+    <a href="#">Messenger</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOT AQUATiCS</title>
+  <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet" />
+</head>
+
+<body class="shop-page">
+
+  <!-- Loading Screen -->
+<div id="loader">
+  <img src="fish-loader.png" alt="Loading..." />
+  <p>Loading DOT AQUATiCS...</p>
+</div>
+
+
+  <!-- Top Bar -->
+<div class="topbar">
+  <a href="index.html" class="logo">DOT AQUATiCS</a>
+
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+  <!-- RIGHT SIDE -->
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="shop.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div id="userProfile" class="user-profile"></div>
+    
+  </div>
+</div>
+
+  <!-- Layout -->
+  <div class="shop-layout">
+
+    <!-- Sidebar -->
+     <aside class="shop-sidebar">
+    <h3 class="sidebar-title">Categories</h3>
+    <ul class="sidebar-links">
+      <li><a href="#betta">Betta Fish</a></li>
+      <li><a href="#monster">Monster Fish</a></li>
+      <li><a href="#accessories">Accessories</a></li>
+      <li><a href="#foods">Fish Foods</a></li>
+    </ul>
+
+    <div class="sidebar-actions">
+      <button class="sidebar-btn" onclick="viewCart()">🛒 View Cart</button>
+    </div>
+  </aside>
+
+    <!-- Main Content -->
+    <main class="shop-main">
+
+      <!-- ================= BETTA ================= -->
+      <h2 id="betta" class="category-title">Betta Fish</h2>
+
+      <div class="category-slider">
+        <!-- arrows jump to card IDs (pure CSS) -->
+        <div class="gallery">
+          <div class="card product-card" id="betta-1">
+            <div class="image-wrapper">
+              <a href="Red_Plakat.jpg" target="_blank">
+                <img src="Red_Plakat.jpg" alt="HMPK Red" />
+              </a>
+              <div class="badge left">₱0 INTEREST</div>
+              <div class="badge right">MEGA DISCOUNT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">HMPK Red Plakat</h3>
+              <div class="price-row">
+                <span class="price">₱1200</span>
+                <span class="discount">-25%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.8</span>
+                <span class="location">📍 Cavite</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn" data-name="HMPK Red Plakat" data-price="1200">Buy</button>
+                <button class="add-cart-btn" data-name="HMPK Red Plakat" data-price="1200">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-2">
+            <div class="image-wrapper">
+              <a href="Yellow_plakat.png" target="_blank">
+                <img src="Yellow_plakat.png" alt="HMPK Yellow" />
+              </a>
+              <div class="badge left">FREE SHIPPING</div>
+              <div class="badge right">HOT SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">HMPK Yellow Plakat</h3>
+              <div class="price-row">
+                <span class="price">₱1100</span>
+                <span class="discount">-20%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Laguna</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-3">
+            <div class="image-wrapper">
+              <a href="BLue_alien.webp" target="_blank">
+                <img src="BLue_alien.webp" alt="Blue Alien" />
+              </a>
+              <div class="badge left">TOP RATED</div>
+              <div class="badge right">LIMITED</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">HMPK Blue Alien</h3>
+              <div class="price-row">
+                <span class="price">₱1500</span>
+                <span class="discount">-30%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Batangas</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-4">
+            <div class="image-wrapper">
+              <a href="MULTI.jpg" target="_blank">
+                <img src="MULTI.jpg" alt="Multi Color" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">HMPK Multi Color</h3>
+              <div class="price-row">
+                <span class="price">₱1300</span>
+                <span class="discount">-15%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.5</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-5">
+            <div class="image-wrapper">
+              <a href="newfish.jpg" target="_blank">
+                <img src="blue_halfmoon.webp" alt="New Fish" />
+              </a>
+              <div class="badge left">COMMON</div>
+              <div class="badge right">SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Blue Halfmoon</h3>
+              <div class="price-row">
+                <span class="price">₱750</span>
+                <span class="discount">-10%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.7</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-6">
+            <div class="image-wrapper">
+              <a href="newfish.jpg" target="_blank">
+                <img src="mascot.jpg" alt="New Fish 2" />
+              </a>
+              <div class="badge left">TOP RATED</div>
+              <div class="badge right">LIMITED</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Blue Mascot Halfmoon</h3>
+              <div class="price-row">
+                <span class="price">₱1850</span>
+                <span class="discount">-12%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.8</span>
+                <span class="location">📍 Tamayong</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-7">
+            <div class="image-wrapper">
+              <a href="mastardGas.jpeg" target="_blank">
+                <img src="mastardGas.jpeg" alt="New Fish 2" />
+              </a>
+              <div class="badge left">FREE SHIPPING</div>
+              <div class="badge right">LIMITED</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Blue Mastard Gas Halfmoon</h3>
+              <div class="price-row">
+                <span class="price">₱1550</span>
+                <span class="discount">-13%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.5</span>
+                <span class="location">📍 Roxas</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-8">
+            <div class="image-wrapper">
+              <a href="newfish.jpg" target="_blank">
+                <img src="sakurapink.jpg" alt="New Fish 2" />
+              </a>
+              <div class="badge left">BEST</div>
+              <div class="badge right">LIMITED</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Sakura Pink RoseTail</h3>
+              <div class="price-row">
+                <span class="price">₱2350</span>
+                <span class="discount">-18%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.3</span>
+                <span class="location">📍 Relocation</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-9">
+            <div class="image-wrapper">
+              <a href="newfish.jpg" target="_blank">
+                <img src="spadetail.jpg" alt="New Fish 2" />
+              </a>
+              <div class="badge left">BEST</div>
+              <div class="badge right">HOT DEALS</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Splendes SpadeTail</h3>
+              <div class="price-row">
+                <span class="price">₱850</span>
+                <span class="discount">-15%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.1</span>
+                <span class="location">📍 Mintal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card" id="betta-10">
+            <div class="image-wrapper">
+              <a href="newfish.jpg" target="_blank">
+                <img src="blackorchiid.webp" alt="New Fish 2" />
+              </a>
+              <div class="badge left">BEST</div>
+              <div class="badge right">LIMITED</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Black Orchid Crowntail</h3>
+              <div class="price-row">
+                <span class="price">₱3350</span>
+                <span class="discount">-20%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Calinan</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <!-- ================= MONSTER ================= -->
+      <h2 id="monster" class="category-title">Monster Fish</h2>
+
+      <div class="category-slider">
+        
+        <div class="gallery">
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="silver.jpg" target="_blank">
+                <img src="silver.jpg" alt="Silver Arowana" />
+              </a>
+              <div class="badge left">BEST SELLER</div>
+              <div class="badge right">MEGA DEAL</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Silver Arowana <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱1800</span>
+                <span class="discount">-35%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 5.0</span>
+                <span class="location">📍 Quezon City</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="redarrow.jpg" alt="Monster 2" />
+              </a>
+              <div class="badge left">HOT</div>
+              <div class="badge right">SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Blood Red Arowana <br> <br> <br></h3>
+              <div class="price-row">
+                <span class="price">₱5100</span>
+                <span class="discount">-15%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.7</span>
+                <span class="location">📍 Cavite</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="crosback.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Extremely Rare PureBreed F1 Malaysian Golden BlueBase Crossback Arowana</h3>
+              <div class="price-row">
+                <span class="price">₱10500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="oscar copper.webp" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title"> Black Tiger Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+            <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="albino.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Albino Tiger Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="lemon.webp" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Albino Lemon Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="elictricblue.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Electric Blue Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="Red-Oscar-1.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Red Jade Oscar (PAIR) <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="Albino-Red-Oscar.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Albino Red Oscar (PAIR) <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="Copper-Oscar.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Copper Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="Golden-Oscar.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Golden Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="Longfin-or-Veiltail-Oscar.jpg" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Longfin Veiltail Red Oscar <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="samurai.png" target="_blank">
+                <img src="FHSUPER.webp" alt="Monster 3" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">RARE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Super Red Dragon Flowerhorn Cichlid | High Grade <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱500</span>
+                <span class="discount">-40%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.9</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- ================= ACCESSORIES ================= -->
+      <h2 id="accessories" class="category-title">Aquarium Accessories</h2>
+      <div class="category-slider">
+    
+        <div class="gallery">
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="accessory.jpg" target="_blank">
+                <img src="sumersible.jpg" alt="Accessory" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Submersible Aquarium Water Pump For Fish Tank Hydroponics Water Pump Adjustable Water Flow Rate Pump</h3>
+              <div class="price-row">
+                <span class="price">₱650</span>
+                <span class="discount">-10%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Laguna</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="accessory.jpg" target="_blank">
+                <img src="DDC.jpg" alt="Accessory 2" />
+              </a>
+              <div class="badge left">HOT</div>
+              <div class="badge right">DEAL</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">【DDC AQUA】 Submersible Aquarium Water Pump For Fish Tank
+                100% Authentic · Change of Mind · 30 Days Free Return 
+              </h3>
+              <div class="price-row">
+                <span class="price">₱320</span>
+                <span class="discount">-8%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.5</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+            <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="accessory.jpg" target="_blank">
+                <img src="3-in-1-Submersible-Water-Pump-for-Aquarium-Fish-Tank.avif" alt="Accessory 2" />
+              </a>
+              <div class="badge left">HOT</div>
+              <div class="badge right">DEAL</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">3 in 1 Submersible Water Pump for Aquarium Fish Tank Pump Water Change Pump Water Circulating Pump</h3>
+              <div class="price-row">
+                <span class="price">₱420</span>
+                <span class="discount">-10%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.5</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="accessory.jpg" target="_blank">
+                <img src="pulaco.jpg" alt="Accessory 2" />
+              </a>
+              <div class="badge left">HOT</div>
+              <div class="badge right">DEAL</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">PULACO 400GPH Submersible Pump with 5 ft Tubing, (1500L/H 25W) durable fountain water pump for Pond Fountain</h3>
+              <div class="price-row">
+                <span class="price">₱1775</span>
+                <span class="discount">-10%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.3</span>
+                <span class="location">📍 Manila</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="accessory.jpg" target="_blank">
+                <img src="aquaspeed.jpg" alt="Accessory 2" />
+              </a>
+              <div class="badge left">HOT</div>
+              <div class="badge right">DEAL</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Aquaspeed Submersible Pump A5000 Aquarium Small Cycle Filter 34 Watts Fresh Marine Water Tank</h3>
+              <div class="price-row">
+                <span class="price">₱380</span>
+                <span class="discount">-12%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.3</span>
+                <span class="location">📍 Metro Manila~Quezon City</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <!-- ================= FOODS ================= -->
+      <h2 id="foods" class="category-title">Fish Foods</h2>
+      <div class="category-slider">
+
+        <div class="gallery">
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="koiKing.jpg" alt="Food" />
+              </a>
+              <div class="badge left">TOP</div>
+              <div class="badge right">SALE</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">1kg 454g Koiking Green Growth Balanced Excel Pellet Fish Food Koi King Color Enhancing Amazon Koi</h3>
+              <div class="price-row">
+                <span class="price">₱280</span>
+                <span class="discount">-18%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.4</span>
+                <span class="location">📍 Cavite</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="bettafood.jpg" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">DDC Betta Micro Pellet 25g  <BR>(AIR DRIED, No ANTI-BIOTICS, 100% Green) <br></BR> </h3>
+              <div class="price-row">
+                <span class="price">₱240</span>
+                <span class="discount">-7%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+            <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="oscarfood.png" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Oscar Fish Pellet - Color and Growth Enhancer 160G <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱99</span>
+                <span class="discount">-7%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+   <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="FH.webp" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Okiko Platinum Fish Food Black Pearl Topka <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱65</span>
+                <span class="discount">-5%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="BSS.webp" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Pelleted Fish Feed – Decapsulated Artemia Cysts 50g/100g, High-Protein for Fry & Baby Fish, Easy Hatch, Zero Waste </h3>
+              <div class="price-row">
+                <span class="price">₱98</span>
+                <span class="discount">-5%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="ikissina.webp" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Ikisakana Fish Food 50 grams <br> <br> <br> <br> </h3>
+              <div class="price-row">
+                <span class="price">₱65</span>
+                <span class="discount">-5%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+           <div class="card product-card">
+            <div class="image-wrapper">
+              <a href="food.jpg" target="_blank">
+                <img src="powderFry.webp" alt="Food 2" />
+              </a>
+              <div class="badge left">NEW</div>
+              <div class="badge right">HOT</div>
+            </div>
+            <div class="card-content">
+              <h3 class="product-title">Watchupong Powder Fry Booster | 100g & 50g | Guppy Fish | Cichlid | Molly | Parrot | Gourami | Betta </h3>
+              <div class="price-row">
+                <span class="price">₱108</span>
+                <span class="discount">-9%</span>
+              </div>
+              <div class="meta">
+                <span class="rating">★ 4.6</span>
+                <span class="location">📍 Rizal</span>
+              </div>
+              <div class="actions">
+                <button class="buy-btn">Buy</button>
+                <button class="add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+<!-- CART MODAL -->
+<!-- CART MODAL -->
+<div id="cartModal" class="cart-modal">
+  <div class="cart-box">
+
+    <div class="cart-header">
+      <h2>Your Cart 🛒</h2>
+      <button class="cart-close" onclick="closeCart()">×</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <!-- items injected by JS -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cartTotal">₱0</span>
+      </div>
+
+      <button class="close-btn" onclick="closeCart()">Close</button>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="uiPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="popupTitle">Notice</h3>
+    <p id="popupMessage">Message here</p>
+    <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<div id="confirmPopup" class="ui-popup">
+  <div class="ui-popup-box">
+    <h3 id="confirmTitle">Confirm Purchase</h3>
+    <p id="confirmMessage"></p>
+
+    <div style="display:flex; gap:10px; justify-content:center;">
+      <button id="confirmYes">Yes</button>
+      <button id="confirmNo" style="background:#ef4444;">No</button>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>© 2026 DOT AQUATiCS. All rights reserved.</p>
+
+  <div>
+    <a href="about.html">About</a> |
+    <a href="services.html">Services</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div style="margin-top:8px;">
+    <a href="#">Facebook</a>
+    <a href="#">Messenger</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
